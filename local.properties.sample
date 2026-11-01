@@ -1,0 +1,23 @@
+# 复制本文件为 local.properties 后填写真实值
+# local.properties 已被 .gitignore 排除，不会进版本库
+# 若不配置，App 仍可正常运行，会自动降级为本地规则分拣
+
+sdk.dir=C\:\\Users\\<你的用户名>\\AppData\\Local\\Android\\Sdk
+
+# ---- 大模型配置 ----
+# 可选 provider：deepseek | zhipu | dashscope | moonshot | ark | qianfan | minimax | siliconflow | openai | custom
+LLM_PROVIDER=deepseek
+LLM_BASE_URL=https://api.deepseek.com/v1
+LLM_MODEL=deepseek-chat
+
+# 把下面这行换成你自己申请到的真实 Key（各平台均可免费申领）
+# DeepSeek   : https://platform.deepseek.com
+# 智谱 GLM   : https://open.bigmodel.cn        （glm-4-flash 免费）
+# 通义千问   : https://bailian.console.aliyun.com
+# 月之暗面   : https://platform.moonshot.cn
+# 火山方舟   : https://console.volcengine.com/ark
+# 百度千帆   : https://console.bce.baidu.com/qianfan
+# MiniMax   : https://platform.minimaxi.com
+# 硅基流动   : https://cloud.siliconflow.cn
+# OpenAI    : https://platform.openai.com
+LLM_API_KEY=
